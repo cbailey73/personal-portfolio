@@ -16,8 +16,18 @@ nav {
     padding: 10px;
 }
 
-.navbar-nav {
-    /* align-self: flex-end; */
+.navbar-brand {
+  margin-left: 5px;
+}
+
+.navbar-collapse {
+  margin-right: 5px;
+}
+
+#subtitle {
+  flex: 1 1 0;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .jumbotron-img {
@@ -26,25 +36,31 @@ nav {
 }
 
 .overlay-0 {
+  flex-wrap: wrap;
   background-color: aqua;
   color: black;
   height: 20%;
-  margin-top: 17%;
   width: 15%;
-  margin-left: 72%;
   min-height: fit-content;
   min-width: fit-content;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 17%;
+  margin-left: 3%;
 }
 
 .overlay {
-    background-color: antiquewhite;
-    color: black;
-    height: 20%;
-    margin-top: 75%;
-    width: 75%;
-    margin-left: 5%;
+  background-color: antiquewhite;
+  color: black;
+  height: 20%;
+  margin-top: 75%;
+  width: 75%;
+  margin-left: 5%;
 }
 
+.card-img {
+  /* max-height: 200px; */
+}
 
   /* header, nav, main, footer {
     margin: 20px;
