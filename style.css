@@ -1,7 +1,7 @@
 /* Basic styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(124, 170, 170);
+    background-color: rgb(209, 241, 241);
     display: flex;
     flex-wrap: wrap;
     flex: 1 1 0;
@@ -10,8 +10,7 @@ body {
     flex-direction: row;
   }
   
-.navbar {
-    background-color: rgb(14, 14, 169);
+nav {
     color: white;
     width: 100%;
     padding: 10px;
@@ -21,9 +20,29 @@ body {
     /* align-self: flex-end; */
 }
 
-#work img {
-  width: 150px;
-  height: 100px;
+.jumbotron-img {
+    height: 300px;
+    width: 100%;
+}
+
+.overlay-0 {
+  background-color: aqua;
+  color: black;
+  height: 20%;
+  margin-top: 17%;
+  width: 15%;
+  margin-left: 72%;
+  min-height: fit-content;
+  min-width: fit-content;
+}
+
+.overlay {
+    background-color: antiquewhite;
+    color: black;
+    height: 20%;
+    margin-top: 75%;
+    width: 75%;
+    margin-left: 5%;
 }
 
 
