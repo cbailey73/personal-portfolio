@@ -1,0 +1,48 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(124, 170, 170);
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  
+.navbar {
+    background-color: rgb(14, 14, 169);
+    color: white;
+    width: 100%;
+    padding: 10px;
+}
+
+.navbar-nav {
+    /* align-self: flex-end; */
+}
+
+#work img {
+  width: 150px;
+  height: 100px;
+}
+
+
+  /* header, nav, main, footer {
+    margin: 20px;
+  } */
+  
+  /* Responsive layout */
+  @media screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+  }
+  
+  /* Scroll behavior for navigation links */
+  nav a {
+    cursor: pointer;
+  }
+  
+  /* Larger size for the first application image
+  #work img:first-child {
+    /* Add styles to make the first image larger */
+  /* } */ 
+  
