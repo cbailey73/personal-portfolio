@@ -81,17 +81,19 @@ nav {
   width: 400px; */
 }
 
-#about-me {
-  width: 100%;
+.custom-card {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 0;
 }
-
-#work {
-  width: 100%;
-  flex-direction: row;
+.card-title {
+  width: 30%; /* Adjust the width as needed */
+  padding: 1rem;
+  background-color: #f8f9fa; /* Light gray background for the title */
 }
-
-#contact {
-  width: 100%;
+.card-body {
+  flex: 1;
+  padding: 1rem;
 }
 
   /* header, nav, main, footer {
