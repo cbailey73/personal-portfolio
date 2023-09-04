@@ -34,6 +34,10 @@ nav {
   margin-right: 5px;
 }
 
+.card {
+  --bs-card-border-width: 0px;
+}
+
 .jumbotron {
   flex: 1 1 0;
   flex-wrap: wrap;
@@ -144,6 +148,12 @@ nav {
 #work .card-body:first-child {
   width: 200%;
 } 
+
+#contact a {
+  color: darkgrey;
+  font-size: large;
+  font-weight: bold;
+}
 
 @media screen and (max-width: 886px) {
   .custom-card {
